@@ -1,8 +1,10 @@
+import Pokedex from "./components/Pokedex";
 
 function App() {
   return (
     <>
-  Hello
+      <h1>Pokedex</h1>
+      <Pokedex/>
     </>
   );
 }
