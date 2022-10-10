@@ -1,11 +1,9 @@
-import Pokedex from "./components/Pokedex";
 import Pokegame from "./components/Pokegame";
 
 function App() {
   return (
     <>
-      <h1>Pokedex</h1>
-      <Pokedex />
+      <h1 className="header">POKEDEX</h1>
       <Pokegame/>
     </>
   );
