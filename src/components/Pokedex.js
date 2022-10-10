@@ -1,5 +1,6 @@
 import React from 'react';
 import Pokecard from './Pokecard';
+import './Pokedex.css';
 
 const Pokedex = () => {
     const dex = [
@@ -13,20 +14,20 @@ const Pokedex = () => {
         {id: 133, name: 'Eevee', type: 'normal', base_experience: 65}
       ]
 
-  return (
-      <>
-          {dex.map((i) => {
-              return <Pokecard
-                key={i.id}
-               id={i.id}
-               name={i.name}
-               type={i.type}
-               exp={i.base_experience}
-           />
-          })}
+    return (
+        <div className='wrapper'>
+            {dex.map((i) => {
+                return <Pokecard
+                    key={i.id}
+                    id={i.id}
+                    name={i.name}
+                    type={i.type}
+                    exp={i.base_experience}
+                />
+            })}
         
-      </>
-  )
+        </div>
+    );
 }
 
 export default Pokedex;

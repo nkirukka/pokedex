@@ -3,14 +3,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 20%;
-    margin: auto;
+    width: 17%;
+    margin: .5em;
     padding: .2em 1em 1.2em;
     border-radius: 19px;
     background-color: rgb(190, 190, 178);
 }
+
 .Pokecard-name{
     color: blue;
+    font-size: 1.1rem;
 }
 .Pokecard-img{
     width: 50%;
